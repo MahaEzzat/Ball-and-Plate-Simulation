@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+Viewpoint {
+	position	0 10 300
+}
+DEF plate Transform {
+	translation	0 -10 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.253957 0.154121 0.8
+				emissiveColor	0.17 0.17 0.17
+				specularColor	0.3 0.3 0.3
+			}
+
+		}
+
+		geometry	Box {
+			size	200 0.1 200
+		}
+
+	}
+}
+DEF ball Transform {
+	translation	0 0.05 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.765583 0.763493 0.8
+				emissiveColor	0.3 0.3 0.3
+				specularColor	0.1 0.1 0.1
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	10
+		}
+
+	}
+}
